@@ -14232,7 +14232,7 @@ body.home-page header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url(https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -14246,17 +14246,19 @@ body.home-page header.masthead .masthead-content {
 
 body.home-page header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
+  color: #333;
 }
 
 body.home-page header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+  color: #333;
 }
 
 body.home-page header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  display: none;
 }
 
 body.home-page header.masthead .bg-circle-1 {
@@ -14305,13 +14307,13 @@ body.home-page .bg-primary {
 }
 
 body.home-page .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #20a8d8;
+  border-color: #20a8d8;
 }
 
 body.home-page .btn-primary:active, body.home-page .btn-primary:focus, body.home-page .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #1fa1cf !important;
+  border-color: #1fa1cf !important;
 }
 
 body.home-page .btn-primary:focus {
@@ -14321,6 +14323,11 @@ body.home-page .btn-primary:focus {
 body.home-page .btn-secondary {
   background-color: #ff6a00;
   border-color: #ff6a00;
+}
+
+body.home-page .bg-blue {
+  background-color: #c2e6f8;
+  color: #fff;
 }
 
 body.home-page .btn-secondary:active, body.home-page .btn-secondary:focus, body.home-page .btn-secondary:hover {
